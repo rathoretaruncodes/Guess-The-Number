@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+    <h1>What's the Number?</h1>
+        <input type="text" value=""  id="hint">
+        <br>
+        <label for="guessField">
+            <input type="number" max="10" min="1" id="guessField">
+        </label>
+        <br>
+        <input type="submit" value="Submit" id="submitBtn">
+        <br>
+        <ul>
+            <li>This program selects a random whole number between 1 and 10.</li>
+            <li>Your goal is to determine the chosen number through elimination.</li>
+            <li>The number changes everytime you figure it out.</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

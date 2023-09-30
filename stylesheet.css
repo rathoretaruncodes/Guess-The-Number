@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap');
+body{
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#ecf0f3;
+    height:90vh;
+}
+h1{
+    text-align:center;
+    font-family: 'Oswald';
+}
+li{
+    font-family: 'Oswald';
+}
+.form{
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    box-shadow:13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    border-radius:5px;
+}
+input[type="number"]{
+    font-family: 'Caveat';
+    border:none;
+    margin-top:10px;
+    width:100%;
+    background:#ffffff;
+    border-radius:5px;
+    text-align:center;
+    height:50px;
+    font-size:xx-large;
+    font-family: 'Oswald';
+}
+input[type="text"] {
+    border:none;
+    font-size:larger;
+    background:none;
+    text-align:center;
+    font-family:'Caveat';
+}
+input[type="submit"] {
+    border:none;
+    box-shadow:5px 5px 8px #00000020;
+    background:#ffffff;
+    border-radius:5px;
+    padding:5px;
+    font-family: 'Oswald';
+}
+input[type="submit"]:hover{
+    box-shadow:inset 5px 5px 8px rgba(29, 28, 28, 0.096);
+}
